@@ -1,30 +1,42 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Contact Michael C. Calhoun</title>
-
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+<meta charset="UTF-8">
+<title>Contact Michael C. Calhoun</title>
 <link type="text/css" href="stylesheet.css" rel="stylesheet">
 </head>
 <body>
 <h1>
-<ul id="nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="bio.html">About Me </a></li>
-<li><a href="projects.html"> Projects </a></li>
-<li><a href="contact.html"> Contact Me </a></li>
-</ul>
+<nav>
+<a href="index.html">Home</a>
+<a href="bio.html">About Me </a>
+<a href="projects.html"> Projects </a>
+<a href="contact.html"> Contact Me </a>
+</nav>
 </h1>
 <br>
 <br>
 <br>
 <h2>
-My
-Contact Information
+My Contact Information
 </h2>
 <br>
-<p style="text-align: center;" class="parapad">Feel
-free to contact me at <a href="mailto:mcalhou@ksu.edu">mcalhou@ksu.edu</a>,
-or by phone via (484)629-2599</p>
-<div class="footercontact">�
-Intellectual Property
-of Michael C. Calhoun </div>
-</body></html>
+<p style="text-align: center;" class="parapad">Feel free to contact me at <a href="mailto:mcalhou@ksu.edu">mcalhou@ksu.edu</a>,
+or by phone via (484) 629-2599</p>
+<form action="https://www.k-state.edu/ws/v1/handle-form" method="post" enctype="multipart/form-data">
+<input type="hidden" name="handleform-addresses-to" value="mcalhou@k-state.edu"><input type="hidden" name="handleform-subject" value="Personal Site Comment">
+<input type="hidden" name="handleform-next-url" value="http://www-personal.ksu.edu/~mcalhou/contact.html">
+<div class="formpair"><label>Name: </label><input type="text" name="name" value=""></div>
+<div class="formpair"><label>E-mail: </label><input type="text" name="mail" value=""></div>
+<div class="formpair"><label>Comment: </label><textarea name="comment" ></textarea><br></div>
+<div id="button">
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</div>
+</form>
+<footer id="contactfooter">© Intellectual Property of Michael C. Calhoun </footer>
+</body>
+</html>
